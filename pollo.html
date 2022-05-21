@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./estilos/estilopollo.css" type="text/css" rel="stylesheet">
+    <title>Pollo</title>
+</head>
+<body>
+    <input type="button" class="boton"  onclick="adio(1)">
+    <input type="image" src="./imagenes/polloreal.png" class="movil">
+    <input type="image" src="./imagenes/sus.png" class="sus" onclick="adio(2)">
+    
+</body>
+</html>
+<script>
+    let boton_no = document.getElementsByClassName('movil')[0];
+    var contador=0;
+        boton_no.onmouseover = () => {
+            boton_no.style.position = "absolute";
+            if(contador<35){
+            boton_no.style.left = Math.random()*1450 + 'px';
+            boton_no.style.top = Math.random()*500 + 'px';
+            contador++;
+            }else{
+                window.location.href = "https://www.youtube.com/watch?v=w3VGMI2Y3s8";
+            }
+        }
+    alert("Al salir de la cueva ves un corral de pollo")
+    alert("Y abdul te dice :atrapa al impostor")
+    function adio(n){
+        if(n==1){
+        window.location.href = "mural.html";
+        }else if(n==2){
+            window.location.href ="https://www.youtube.com/watch?v=grd-K33tOSM";
+        }
+    }
+</script>

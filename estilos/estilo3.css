@@ -1,0 +1,11 @@
+body{
+    background-image: url('../imagenes/cueva.png');
+    background-size: cover;
+}
+#texto1{
+    font-size: 0px;
+}
+.boton{
+    margin-top: 400px;
+    height: 300px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./estilos/estilodiamantes.css" type="text/css" rel="stylesheet">
+    <title>Diamantes</title>
+</head>
+<body >
+    <input type="image" src="./imagenes/pico.png" class="pico" onclick="adio()">
+    <input type="image" src="./imagenes/sentaito.png" class="boton" onclick="hablar()">
+    
+</body>
+</html>
+<script>
+    alert("Al derrotar al zombie ves a un gerrero cebollino que te agradece que le hayas salvado")
+    function hablar(){
+        alert("Gracias por salvarme del zombie,toma este pico.")
+        alert("Pilla los diamantes y sal de aqui lo más rapido que puedas")
+    }
+    function adio(){
+        window.location.href = "salida.html";
+    }
+
+</script>

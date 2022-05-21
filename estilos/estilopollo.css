@@ -1,0 +1,16 @@
+body{
+    background-image: url('../imagenes/pollo.png');
+    background-size: cover;
+}
+.boton{
+position: absolute;
+margin-top:150px;
+margin-left: 960px;
+height: 15px;
+width: 15px;
+background-color: red;
+border: none;
+}
+.sus{
+    float:right;
+}

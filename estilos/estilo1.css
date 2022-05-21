@@ -1,0 +1,19 @@
+body{
+    background-image: url('../imagenes/casa.png');
+    background-size: cover;
+}
+.co{
+    margin-top: 5%;
+    font-size: 100px ;
+    color: aliceblue;
+}
+.input{
+    margin: 10%;
+}
+.boton{
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 50px;
+    height: 1px;
+    width: 1px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="estilos/ultimo.css" type="text/css" rel="stylesheet">
+    <title>Puerta8</title>
+</head>
+<body>
+    <center>
+        <h1>¿Como se llama este personaje?</h1>
+        <div class="row">
+            <div class="col-12">
+                <input id="texto1" type="textfield" value="">
+                <a href="https://www.youtube.com/watch?v=Rnxqlk7lPE0%22%3"><input type="button" value="Enviar" ></a>
+            </div>
+        </div>
+        <div id="pepitochocolateroo"><input type="image" src="Imagenes/oso.png" width="41%" height="375px" onclick="Resultado()"></a><h1><label></label></h1></div>
+    </center>
+</body>
+</html>
+
+<script>
+    function Resultado(){
+        var resultado = document.getElementById("texto1").value 
+        console.log(resultado)
+        if(resultado == 'Little John' || resultado == 'little john'){
+            window.location.href = "creditos.html";
+        }else{
+            alert('Asi no es ');
+        }
+    }
+</script>

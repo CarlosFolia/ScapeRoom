@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./estilos/estilo3.css" type="text/css" rel="stylesheet">
+    <title>Juego3</title>
+</head>
+<body>
+    <center><input type="image" src="./imagenes/zombie.png" class="boton" id="zombie" onclick="cambiarImagen()"></center>
+    <h1 id="texto1">0</h1></div>
+</body>
+</html>
+<script>
+    alert("Al atravesar la lava con cuidado ya ves los diamantes")
+    alert("Pero un zombie se interpone en tu camino")
+    function cambiarImagen(){       
+        contador=document.getElementById("texto1").innerHTML;
+        contador++;
+        document.getElementById("texto1").innerHTML = contador
+        if(contador>25){
+            document.getElementById("zombie").src = "./imagenes/zombiemal.png";
+        }
+        if(contador>50){
+            window.location.href = "diamantes.html";
+        }
+}
+    </script>

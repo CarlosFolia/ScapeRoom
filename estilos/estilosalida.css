@@ -1,0 +1,9 @@
+body{
+    background-image: url('../imagenes/salida.png');
+    background-size: cover;
+}
+.boton{
+    height: 200px;
+    margin-left: 45%;
+    margin-top:320px;
+}

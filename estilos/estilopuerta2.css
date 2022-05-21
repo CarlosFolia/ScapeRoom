@@ -1,0 +1,11 @@
+body{
+    background-image: url('../imagenes/bajada.png');
+    background-size: cover;
+}
+.boton{
+    height: 345px;
+    width: 345px;
+    margin-bottom: 10px;
+    margin-top: 320px;
+    margin-left: 42%;
+}
